@@ -1,7 +1,8 @@
 class file1
 {
-   pubic static void main()
+   pubic static void main(String[] args)
    {
+     
 
    }
 }

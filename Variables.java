@@ -3,7 +3,7 @@ public class Varibles{
 		int i=5;
 		int j=6;
 		int c = i+j;
-		System.out.println("Result is" + c);
+		System.out.println("Result is: " + c);
 	}
 }
 

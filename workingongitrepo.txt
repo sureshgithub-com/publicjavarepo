@@ -14,7 +14,7 @@
 4) create any java program
    vi sample.java
     (file created)
-5) git status
+5) git statusgit 
 
    this should show the output given below:
 

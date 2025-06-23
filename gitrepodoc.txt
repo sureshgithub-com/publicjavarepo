@@ -1,0 +1,53 @@
+1. clone the git repository to the local location
+>> $ git clone https://github.com/sureshgithub-com/publicjavarepo.git
+
+2. Change directory to publicjavarepo folder
+>> $ cd publicjavarepo/
+
+3. Create a new branch 
+>> $ git checkout -b reshmaraju origin/release/1.0.0
+branch 'reshmaraju' set up to track 'origin/release/1.0.0'.
+Switched to a new branch 'reshmaraju'
+
+4. Create any java program
+>> $ vi firstprogram.java
+
+5. Check the git status 
+>> $ git status
+On branch reshmaraju
+Your branch is up to date with 'origin/release/1.0.0'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   firstprogram.java
+
+6. Add the newly created file to the stash
+>> git add firstprogram.java 
+
+7. commit the file to the repository 
+>> $ git commit -a -m "Reshma - my first program"
+[reshmaraju f4d2a2e] Reshma - my first program
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+8. Push code tot the repository
+>> $ git push origin reshmaraju
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'reshmaraju' on GitHub by visiting:
+remote:      https://github.com/sureshgithub-com/publicjavarepo/pull/new/reshmaraju
+remote:
+To https://github.com/sureshgithub-com/publicjavarepo.git
+ * [new branch]      reshmaraju -> reshmaraju
+
+
+9. You should be able to see your barnch on the github repository
+
+10. Create a pull request on the github by clicking on "create pull request"
+	make sure that 'release/1.0.0' on the left side 
